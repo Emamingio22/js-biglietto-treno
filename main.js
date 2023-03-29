@@ -7,6 +7,16 @@ va applicato uno sconto del 40% per gli over 65.*/
 
 
 /*numero km ed età passeggero*/
-let kmNumber = prompt("Di quanti km sarà il tuo viaggio?")
-let age = prompt("Quanti anni hai?")
+let kmNumber = prompt("Di quanti km sarà il tuo viaggio?");
+console.log(kmNumber)
+let age = prompt("Quanti anni hai?");
+console.log(age)
+
+/*calcolo prezzo standard*/
+let standardPrice = kmNumber * 0.21;
+console.log(standardPrice)
+
+
+
+
 
