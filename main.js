@@ -23,12 +23,19 @@ va applicato uno sconto del 40% per gli over 65.*/
         let underDiscount = ((standardPrice * 20) / 100);
         let underCost = standardPrice - underDiscount;
         console.log(underCost);
+        console.log("sconto Under 18");
+        document.getElementById("cost").innerHTML = underCost.toFixed(2)+" euro";
     }else if (age > 65) {
         let overDiscount = ((standardPrice * 40) / 100);
         let overCost = standardPrice - overDiscount;
         console.log(overCost);
+        console.log("sconto Over 65");
+        document.getElementById("cost").innerHTML = overCost.toFixed(2)+" euro";
     }else {
         console.log("non è stato applicato nessuno sconto");
+        document.getElementById("cost").innerHTML = standardPrice.toFixed(2)+" euro";
     }
-
+    console.log
+    
+   
 
